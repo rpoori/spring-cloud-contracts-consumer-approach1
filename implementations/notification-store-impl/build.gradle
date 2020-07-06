@@ -9,4 +9,5 @@ dependencies {
     implementation project(':domains:notification')
     implementation "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
     testImplementation "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
+    testImplementation "org.springframework.cloud:spring-cloud-contract-stub-runner:${springCloudContractVersion}"
 }
